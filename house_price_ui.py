@@ -65,6 +65,6 @@ st.write(input_df)
 # Predict house price
 prediction = model.predict(input_df)
 
-# Display prediction
+# Display predictions
 st.subheader('Predicted House Price')
-st.write(f"${ prediction[0]:,.2f}")
+st.title(f"${ prediction[0]:,.2f}")
